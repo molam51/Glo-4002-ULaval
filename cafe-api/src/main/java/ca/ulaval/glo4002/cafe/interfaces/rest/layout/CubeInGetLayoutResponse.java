@@ -1,0 +1,17 @@
+package ca.ulaval.glo4002.cafe.interfaces.rest.layout;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+
+import java.util.List;
+
+public class CubeInGetLayoutResponse {
+
+    public final String name;
+    public final List<SeatInGetLayoutResponse> seats;
+
+    @JsonCreator
+    public CubeInGetLayoutResponse(String name, List<SeatInGetLayoutResponse> seats) {
+        this.name = name;
+        this.seats = seats;
+    }
+}

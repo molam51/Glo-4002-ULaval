@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+    <!--General suppressions-->
+    <suppress id="MethodNameRegular" files="[\\/]test.+.java"/>
+    <suppress id="MethodNameTest" files="[\\/]main.+.java"/>
+
+    <!--Specific suppressions-->
+    <suppress id="MethodLengthTest" files="CafeServer.java"/>
+    <suppress id="MagicNumberTest" files="CafeServer.java"/>
+    <suppress id="MagicNumberTest" files="Price.java"/>
+    <suppress id="MagicNumberTest" files="MenuItemFactory.java"/>
+    <suppress id="MagicNumberTest" files="RecipeFactory.java"/>
+    <suppress id="MagicNumberTest" files="TipFactory.java"/>
+    <suppress id="MagicNumberTest" files="TipRateTest.java"/>
+    <suppress id="MagicNumberTest" files="DefaultReservationStrategyTest.java"/>
+    <suppress id="MagicNumberTest" files="FullCubesReservationStrategyTest.java"/>
+    <suppress id="MagicNumberTest" files="NoLonersReservationStrategyTest.java"/>
+    <suppress id="MagicNumberTest" files="TaxTest.java"/>
+    <suppress id="MagicNumberTest" files="PriceTest.java"/>
+    <suppress id="MagicNumberTest" files="QuantityTest.java"/>
+    <suppress id="MagicNumberTest" files="IngredientTest.java"/>
+</suppressions>
